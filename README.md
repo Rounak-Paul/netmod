@@ -9,6 +9,7 @@
   video = cv2.VideoCapture(path) </br>
   rgb = np.array([R,G,B]) </br>
   
+  <li><ul>
   <b>video2img(video,dir):</b> Video saved as img frame by frame </br>
   
   <b>gray(img):</b> Grayscale image from BGR </br>
@@ -27,7 +28,7 @@
   
   <b>powerlaw(img,int):</b> Powerlaw Transformation, value of <b>int</b> is the gamma
   
-  
+  </ul></li>
   
   
   
