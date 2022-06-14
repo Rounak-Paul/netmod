@@ -36,7 +36,7 @@ from <b>netmod</b> import <b>imageprocessing</b>
 ### Module: Image Classification </br>
 from <b>netmod</b> import <b>imageclassification</b>
 
-dir = 'directory'
+dir = 'directory' </br>
 int = number of epoch
 </br>
 <ul>
