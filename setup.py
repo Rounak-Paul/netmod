@@ -7,5 +7,5 @@ setup(name='netmod',
         author='Rounak Paul',
         author_email='rounakpaul@hotmail.com',
         license='MIT',
-        packages=['imageprocessing'],
+        packages=['imageprocessing','imageclassification'],
         zip_safe=False)
