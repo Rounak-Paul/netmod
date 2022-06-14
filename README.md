@@ -10,9 +10,9 @@
   rgb = np.array([R,G,B]) </br>
   
   <li>
-  <ul><b>video2img(video,dir):</b> Video saved as img frame by frame </br></ul>
+  <ul><b>video2img(video,dir):</b> Video saved as img frame by frame</ul> </br>
   
-  <ul><b>gray(img):</b> Grayscale image from BGR </br></ul>
+  <ul><b>gray(img):</b> Grayscale image from BGR</ul> </br>
   
   <ul><b>colorFilterUI(img):</b> Filter RGB image with a pop-up color picker UI </br></ul>
   
