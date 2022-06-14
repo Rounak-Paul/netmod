@@ -9,27 +9,26 @@
   video = cv2.VideoCapture(path) </br>
   rgb = np.array([R,G,B]) </br>
   
-  <li>
-  <ul><b>video2img(video,dir):</b> Video saved as img frame by frame</ul> </br>
+  <ul>
+  <li><b>video2img(video,dir):</b> Video saved as img frame by frame</li> </br>
   
-  <ul><b>gray(img):</b> Grayscale image from BGR</ul> </br>
+  <li><b>gray(img):</b> Grayscale image from BGR</li> </br>
   
-  <ul><b>colorFilterUI(img):</b> Filter RGB image with a pop-up color picker UI </br></ul>
+  <li><b>colorFilterUI(img):</b> Filter RGB image with a pop-up color picker UI</li> </br>
   
-  <ul><b>colorFilter(img,rgb):</b> Takes numpy array like defined above with each enty between and including 0 to 255 </br></ul>
+  <li><b>colorFilter(img,rgb):</b> Takes numpy array like defined above with each enty between and including 0 to 255</li> </br>
   
-  <ul><b>sharp(img):</b> Sharpens image </br></ul>
+  <li><b>sharp(img):</b> Sharpens image</li> </br>
   
-  <ul><b>smooth(img):</b> Gaussian Blur </br></ul>
+  <li><b>smooth(img):</b> Gaussian Blur</li> </br>
   
-  <ul><b>layerExtract(img,int):</b> Extracts each 3 layers of RGB image, value of <b>int</b> is in range 0, 1, 2 for R, G, B respectively </br></ul>
+  <li><b>layerExtract(img,int):</b> Extracts each 3 layers of RGB image, value of <b>int</b> is in range 0, 1, 2 for R, G, B respectively</li> </br>
   
-  <ul><b>edge(img):</b> Extracts edge, Laplacian </br></ul>
+  <li><b>edge(img):</b> Extracts edge, Laplacian</li> </br>
   
-  <ul><b>powerlaw(img,int):</b> Powerlaw Transformation, value of <b>int</b> is the gamma </br>   </ul>
-  </li>
+  <li><b>powerlaw(img,int):</b> Powerlaw Transformation, value of <b>int</b> is the gamma</li> </br> 
   
-  
+  </ul>
   
 
 
