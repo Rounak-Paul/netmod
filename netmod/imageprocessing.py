@@ -1,7 +1,18 @@
 import cv2
 import numpy as np
+import os
 
 from vcolorpicker import getColor
+
+#video to image frame by frame
+def video2img(video,dir):
+    # video = cv2.VideoCapture("8.mp4")
+    i = 0
+    os.chdir(dir)
+    while True:
+        ret, frame = video.read()
+        cv2.imwrite("frame8_%d.jpg" % i, frame)
+        i = i + 1
 
 #grayscale
 def gray(img):
@@ -115,3 +126,9 @@ def histogramEqualization(img):
 #edge
 def edge(img):
     return cv2.Laplacian(img, cv2.CV_8UC3)
+
+#powerlaw
+def powerlaw(img,n):
+    # n is the value of gamma(user input)
+    img = np.array(255*(img/255)**n,dtype='uint8')
+    return img

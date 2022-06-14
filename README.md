@@ -1,2 +1,4 @@
 # netmod
-Python Module 1
+Duke's Python Module for Automating basic fucntions
+
+
