@@ -3,7 +3,7 @@
 
 ### Documentation:
 
-Module: Image Processing
+Module: Image Processing </br>
   img = cv2.imread(path)
   video = cv2.VideoCapture(path)
   rgb = np.array([R,G,B])
